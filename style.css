@@ -1,0 +1,129 @@
+#profile_pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-color {
+	background: #f0ece2;
+}
+
+.second-color {
+	background: #dfd3c3;
+}
+
+.third-color {
+	background: #c7b198;
+}
+
+.fourth-color {
+	background: #596e79;
+}
+
+h1 {
+  font-family: "Lexend Giga";
+  font-weight: 500;
+  font-style: bold;
+  background-color: none;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Lexend Giga";
+  font-weight: 200;
+  font-size: larger;
+  font-style: normal;
+  background-color: none;
+  text-align: center;
+}
+
+body {
+  background-color: #dfd3c3;
+  font-family: "Lexend Giga";
+  color:rgba(103, 38, 38, 0.985);
+  font-size: large;
+  font: 100;
+}
+
+.link {
+  color: #9e8364;
+  text-decoration: none;
+}
+
+@media (min-width: 921px) {
+  .card {
+    background: #f6f1e3;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 900px;
+    height: 200px;
+  }
+
+  h1 {
+    font-family: "Lexend Giga";
+    font-weight: 600;
+    font-style: bold;
+    background-color: none;
+    letter-spacing: 25px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Lexend Giga";
+    font-weight: 200;
+    font-size: larger;
+    font-style: normal;
+    letter-spacing: 10px;
+    background-color: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 920px) {
+  .card {
+    background: #f6f1e3;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 10px;
+
+  }
+}
+
+
+@media (max-width: 640px) {
+  .card {
+    background: #f6f1e3;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 10px;
+    font-size: small;
+  }
+
+  h1 {
+    font-family: "Lexend Giga";
+    font-weight: 400;
+    font-style: bold;
+    background-color: none;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Lexend Giga";
+    font-weight: 100;
+    font-size: large;
+    font-style: small;
+    background-color: none;
+    text-align: center;
+  }
+}
